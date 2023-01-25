@@ -6,22 +6,120 @@
 /* color of footer text #E7E9FC */
 /* color of background #F4F4FD */
 
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+}
+
 body {
   background-color: #f4f4fd;
-}
-
-.logo {
-  color: #2e2f42;
-}
-
-.logo > span {
-  color: #4d5ae5;
 }
 
 .list {
   list-style: none;
 }
 
-.nav-list {
-  color: #2e2f42;
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* Navigation */
+
+.navigation .link {
+  color: var(--title-text-color);
+}
+
+.navigation .link:hover,
+.navigation .link:focus {
+  color: blue;
+}
+
+.logo:hover,
+.logo:focus {
+  color: red;
+}
+
+.logo .web:hover:hover,
+.logo .web:hover:focus {
+  color: red;
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo .web {
+  color: var(--accent-color);
+}
+
+.auth-nav .auth-link {
+  color: var(--primary-text-color);
+}
+
+/* main */
+main {
+  background-color: #f4f4fd;
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* banner */
+.first-section-title {
+  color: #ffffff;
+}
+.first-section {
+  background-color: #434455;
+}
+
+/* section benefit */
+.benefit-list-title {
+  color: var(--title-text-color);
+}
+
+.benefit-list-text {
+  color: var(--primary-text-color);
+}
+
+.btn-order-service {
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+/* section Our Team */
+.section-name {
+  color: var(--title-text-color);
+}
+
+.section-profession {
+  color: var(--primary-text-color);
+}
+
+/* footer */
+
+.footer-text {
+  color: #e7e9fc;
+}
+
+footer .logo .web {
+  color: #4d5ae5;
+}
+
+footer .logo {
+  color: #f4f4fd;
+}
+
+footer {
+  background-color: var(--title-text-color);
 }
