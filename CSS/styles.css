@@ -1,0 +1,27 @@
+/* основной цвет #434455 */
+/* вторичный цвет #2E2F42 */
+/* colors of logo #4D5AE5 and #2E2F42 */
+/* color of contacts #434455 */
+/* white #FFFFFF */
+/* color of footer text #E7E9FC */
+/* color of background #F4F4FD */
+
+body {
+  background-color: #f4f4fd;
+}
+
+.logo {
+  color: #2e2f42;
+}
+
+.logo > span {
+  color: #4d5ae5;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-list {
+  color: #2e2f42;
+}
