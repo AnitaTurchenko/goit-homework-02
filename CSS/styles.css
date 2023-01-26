@@ -14,23 +14,11 @@
 
 body {
   background-color: #f4f4fd;
+  font-family: roboto;
 }
 
 .list {
   list-style: none;
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
 }
 
 /* Navigation */
@@ -47,6 +35,10 @@ body {
 .logo:hover,
 .logo:focus {
   color: red;
+}
+
+.navigation .link.current {
+  color: var(--accent-color);
 }
 
 .logo .web:hover:hover,
@@ -93,7 +85,7 @@ main {
 }
 
 .btn-order-service {
-  background-color: #4d5ae5;
+  background-color: var(--accent-color);
   color: #ffffff;
 }
 
@@ -113,7 +105,7 @@ main {
 }
 
 footer .logo .web {
-  color: #4d5ae5;
+  color: var(--accent-color);
 }
 
 footer .logo {
@@ -122,4 +114,31 @@ footer .logo {
 
 footer {
   background-color: var(--title-text-color);
+}
+
+/* PORTFOLIO */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* filter buttons */
+.list .filter-button {
+  color: var(--accent-color);
+  background-color: #f4f4fd;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
