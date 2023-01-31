@@ -20,7 +20,6 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
 }
 
 .button {
@@ -124,7 +123,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
@@ -143,6 +142,7 @@ body {
 }
 .benefit-list-text {
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 /* section Our Team */
@@ -166,6 +166,7 @@ body {
 .section-profession {
   letter-spacing: 0.02em;
   text-align: center;
+  line-height: 1.5;
 }
 
 /* footer */
@@ -173,6 +174,7 @@ body {
 .footer-text {
   color: var(--footer-text-color);
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 footer .logo .web {
@@ -229,4 +231,5 @@ footer {
 
 .filter-list-text {
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
